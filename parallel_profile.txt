@@ -1,0 +1,279 @@
+         2344 function calls (2322 primitive calls) in 3.221 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    3.221    1.611 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:3472(run_code)
+        2    0.000    0.000    3.221    1.611 {built-in method builtins.exec}
+        1    0.002    0.002    3.221    3.221 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/3628714565.py:4(<module>)
+        1    0.047    0.047    3.219    3.219 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/2997250002.py:8(simulate_physical_system_parallel)
+        1    0.000    0.000    2.184    2.184 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:1000(__call__)
+      116    2.182    0.019    2.182    0.019 {method 'acquire' of '_thread.lock' objects}
+       23    0.000    0.000    2.175    0.095 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:540(wait)
+       23    0.000    0.000    2.175    0.095 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:270(wait)
+        1    0.000    0.000    2.175    2.175 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:960(retrieve)
+       10    0.000    0.000    2.175    0.218 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:764(get)
+       10    0.000    0.000    2.175    0.218 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:761(wait)
+        1    0.632    0.632    0.649    0.649 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/_basic.py:40(solve)
+        3    0.256    0.085    0.256    0.085 {method 'rand' of 'numpy.random.mtrand.RandomState' objects}
+        3    0.065    0.022    0.065    0.022 {method 'astype' of 'numpy.ndarray' objects}
+     18/5    0.018    0.001    0.018    0.004 {built-in method numpy.core._multiarray_umath.implement_array_function}
+        1    0.000    0.000    0.018    0.018 <__array_function__ internals>:177(vstack)
+        1    0.000    0.000    0.018    0.018 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:223(vstack)
+        1    0.000    0.000    0.018    0.018 <__array_function__ internals>:177(concatenate)
+        2    0.000    0.000    0.017    0.009 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/_lib/_util.py:206(_asarray_validated)
+        2    0.017    0.008    0.017    0.009 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/lib/function_base.py:562(asarray_chkfinite)
+        1    0.000    0.000    0.007    0.007 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:797(_terminate_backend)
+        1    0.000    0.000    0.007    0.007 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:239(terminate)
+        3    0.000    0.000    0.007    0.002 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/util.py:205(__call__)
+        1    0.000    0.000    0.007    0.007 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:651(terminate)
+        1    0.000    0.000    0.007    0.007 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:677(_terminate_pool)
+        3    0.000    0.000    0.007    0.002 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:979(join)
+        4    0.000    0.000    0.007    0.002 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1017(_wait_for_tstate_lock)
+       11    0.000    0.000    0.001    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:838(dispatch_one_batch)
+       10    0.000    0.000    0.001    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:801(_dispatch)
+       10    0.000    0.000    0.001    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:250(apply_async)
+       10    0.000    0.000    0.001    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:400(_get_pool)
+        1    0.000    0.000    0.001    0.001 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:924(__init__)
+        1    0.000    0.000    0.001    0.001 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:183(__init__)
+        2    0.000    0.000    0.001    0.000 {method 'all' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.001    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/_methods.py:61(_all)
+        2    0.001    0.000    0.001    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.000    0.000    0.001    0.001 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:302(_repopulate_pool)
+        1    0.000    0.000    0.001    0.001 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:311(_repopulate_pool_static)
+       13    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:834(start)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/dummy/__init__.py:43(start)
+       13    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:919(Process)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/context.py:110(SimpleQueue)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/queues.py:334(__init__)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/queues.py:360(put)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/dummy/__init__.py:36(__init__)
+       13    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:761(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/context.py:65(Lock)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/synchronize.py:161(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/synchronize.py:50(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:644(close)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:669(__init__)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(array_split)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/lib/shape_base.py:739(array_split)
+       11    0.000    0.000    0.000    0.000 {built-in method posix.write}
+        4    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/resource_tracker.py:153(_send)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/synchronize.py:84(_cleanup)
+       23    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:505(__init__)
+       26    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:222(__init__)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:181(send_bytes)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/codeop.py:142(__call__)
+       23    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/resource_tracker.py:149(unregister)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/reduction.py:48(dumps)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/numeric.py:150(ones)
+       11    0.000    0.000    0.000    0.000 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/2997250002.py:30(<genexpr>)
+       12    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/queue.py:153(get)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:450(apply_async)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/externals/loky/backend/__init__.py:7(_make_name)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:390(_send_bytes)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/synchronize.py:94(__enter__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_utils.py:19(eval_expr)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:347(delayed)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/tempfile.py:144(__next__)
+        3    0.000    0.000    0.000    0.000 {method '__enter__' of '_multiprocessing.SemLock' objects}
+        4    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/resource_tracker.py:70(ensure_running)
+       23    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:258(_acquire_restore)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:744(__init__)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:365(_send)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/reduction.py:38(__init__)
+        4    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/resource_tracker.py:134(_check_alive)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/queue.py:121(put)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/tempfile.py:147(<listcomp>)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(copyto)
+       16    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/random.py:285(choice)
+       11    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(swapaxes)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/resource_tracker.py:145(register)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/functools.py:34(update_wrapper)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/ast.py:30(parse)
+       43    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:261(_is_owned)
+       47    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+      128    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       45    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:246(__enter__)
+       20    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:341(notify)
+      112    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(atleast_2d)
+    51/44    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:516(Pipe)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:753(ready)
+       45    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:249(__exit__)
+       16    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/random.py:250(_randbelow_with_getrandbits)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/uuid.py:780(uuid4)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:199(__init__)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/blas.py:384(getter)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/context.py:41(cpu_count)
+       11    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/fromnumeric.py:550(swapaxes)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+       39    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1306(current_thread)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/util.py:171(register_after_fork)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:81(atleast_2d)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/os.py:678(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/queue.py:33(__init__)
+       13    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/_weakrefset.py:81(add)
+       11    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/fromnumeric.py:51(_wrapfunc)
+      3/1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_utils.py:36(eval_)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:238(helper)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/logger.py:39(short_format_time)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:940(_help_stuff_finish)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.pipe}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/weakref.py:159(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:89(get_active_backend)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:130(__del__)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/weakref.py:343(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/uuid.py:132(__init__)
+       23    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:255(_release_save)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:117(__exit__)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1017(_handle_fromlist)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:360(_close)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/_basic.py:23(_solve_check)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:124(get_nested_backend)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:82(__init__)
+       21    0.000    0.000    0.000    0.000 {method 'put' of '_queue.SimpleQueue' objects}
+       13    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:734(_newname)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.cpu_count}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+       10    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/util.py:186(__init__)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:271(__init__)
+       13    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/_weakrefset.py:38(_remove)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/logger.py:23(_squeeze_time)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/abc.py:96(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:280(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'swapaxes' of 'numpy.ndarray' objects}
+       12    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:34(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/disk.py:42(memstr_to_bytes)
+       13    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1110(daemon)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:108(__enter__)
+       40    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:513(is_set)
+       45    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+       28    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        3    0.000    0.000    0.000    0.000 {built-in method posix.putenv}
+       13    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1177(_make_invoke_excepthook)
+        3    0.000    0.000    0.000    0.000 {method 'dump' of '_pickle.Pickler' objects}
+       17    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.close}
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:944(_stop)
+       33    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _multiprocessing.sem_unlink}
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/synchronize.py:97(__exit__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:772(_initialize_backend)
+        6    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/os.py:748(encode)
+       10    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/weakref.py:323(__new__)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/weakref.py:395(__setitem__)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/traitlets/traitlets.py:689(__get__)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/ast.py:478(__instancecheck__)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/queue.py:212(_put)
+       12    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/queue.py:208(_qsize)
+        4    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/compilerop.py:180(extra_flags)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/queue.py:216(_get)
+       13    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       45    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       11    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       39    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       19    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/util.py:48(debug)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/weakref.py:345(remove)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_multiprocessing.SemLock' objects}
+       32    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       16    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1095(daemon)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1071(is_alive)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/sparse/_base.py:1301(isspmatrix)
+       30    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:301(__len__)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1042(name)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/weakref.py:103(remove)
+       50    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/3628714565.py:5(<module>)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/functools.py:64(wraps)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(atleast_1d)
+        1    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+       13    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       10    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/traitlets/traitlets.py:651(get)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:117(__init__)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:371(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:927(_setup_queues)
+       26    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/uuid.py:327(hex)
+        5    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/context.py:233(get_context)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:245(__exit__)
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:389(configure)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:3424(compare)
+       12    0.000    0.000    0.000    0.000 {built-in method time.time}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/ma/core.py:6462(isMaskedArray)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:615(__init__)
+       12    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/tempfile.py:133(rng)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:218(_vhstack_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:248(unregister)
+        3    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
+        1    0.000    0.000    0.000    0.000 {method 'get' of '_queue.SimpleQueue' objects}
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:1031(name)
+       13    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+       22    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+       10    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/synchronize.py:90(_make_methods)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/weakref.py:328(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:23(atleast_1d)
+        1    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:207(_arrays_for_stack_dispatcher)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:348(_check_running)
+        2    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x1025bf830}
+       10    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_io.BytesIO' objects}
+       11    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:89(compute_batch_size)
+       16    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:1229(user_global_ns)
+       10    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:350(delayed_function)
+       11    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/fromnumeric.py:546(_swapaxes_dispatcher)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:904(_print)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:157(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/threading.py:81(RLock)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/queue.py:205(_init)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:134(_check_closed)
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/context.py:197(get_start_method)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:933(_get_sentinels)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:227(effective_n_jobs)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/connection.py:142(_check_writable)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/context.py:187(get_context)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/lib/shape_base.py:735(_array_split_dispatcher)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/util.py:44(sub_debug)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:137(retrieval_context)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        3    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/ast.py:467(_getter)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/multiprocessing/pool.py:263(__del__)
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.mul}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/multiarray.py:1079(copyto)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/_misc.py:181(_datacopied)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/parallel.py:242(__enter__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/multiarray.py:152(concatenate)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:80(start_call)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/joblib/_parallel_backends.py:83(stop_call)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:77(_atleast_2d_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:19(_atleast_1d_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

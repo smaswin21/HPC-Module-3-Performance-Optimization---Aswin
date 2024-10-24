@@ -1,0 +1,49 @@
+         79 function calls in 2.321 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    2.321    1.160 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:3472(run_code)
+        2    0.000    0.000    2.321    1.160 {built-in method builtins.exec}
+        1    0.020    0.020    2.321    2.321 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/2895589530.py:4(<module>)
+        1    0.053    0.053    2.301    2.301 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/648558669.py:1(simulate_physical_system)
+        3    1.302    0.434    1.981    0.660 {built-in method numpy.core._multiarray_umath.implement_array_function}
+        1    0.000    0.000    1.302    1.302 <__array_function__ internals>:177(dot)
+        1    0.000    0.000    0.679    0.679 <__array_function__ internals>:177(solve)
+        1    0.679    0.679    0.679    0.679 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:306(solve)
+        3    0.267    0.089    0.267    0.089 {method 'rand' of 'numpy.random.mtrand.RandomState' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/codeop.py:142(__call__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/numeric.py:150(ones)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(copyto)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:238(helper)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:136(_commonType)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:82(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:112(_makearray)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:108(__enter__)
+        1    0.000    0.000    0.000    0.000 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/2895589530.py:5(<module>)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/traitlets/traitlets.py:689(__get__)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:117(__exit__)
+        4    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/compilerop.py:180(extra_flags)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:130(_realType)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:180(_assert_stacked_2d)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:3424(compare)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/traitlets/traitlets.py:651(get)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:1229(user_global_ns)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:186(_assert_stacked_square)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:107(get_linalg_error_extobj)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:117(isComplexType)
+        1    0.000    0.000    0.000    0.000 {method '__array_prepare__' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/linalg/linalg.py:302(_solve_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/multiarray.py:740(dot)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/multiarray.py:1079(copyto)
+
+

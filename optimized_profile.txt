@@ -1,0 +1,59 @@
+         101 function calls in 1.744 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    1.744    0.872 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:3472(run_code)
+        2    0.000    0.000    1.744    0.872 {built-in method builtins.exec}
+        1    0.000    0.000    1.744    1.744 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/3871972712.py:4(<module>)
+        1    0.028    0.028    1.744    1.744 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/776204648.py:4(simulate_physical_system_optimized)
+        1    0.708    0.708    0.727    0.727 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/_basic.py:40(solve)
+        4    0.608    0.152    0.608    0.152 {built-in method numpy.core._multiarray_umath.implement_array_function}
+        1    0.000    0.000    0.608    0.608 <__array_function__ internals>:177(dot)
+        3    0.332    0.111    0.332    0.111 {method 'rand' of 'numpy.random.mtrand.RandomState' objects}
+        3    0.049    0.016    0.049    0.016 {method 'astype' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.019    0.009 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/_lib/_util.py:206(_asarray_validated)
+        2    0.017    0.008    0.018    0.009 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/lib/function_base.py:562(asarray_chkfinite)
+        2    0.000    0.000    0.002    0.001 {method 'all' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.002    0.001 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/_methods.py:61(_all)
+        2    0.002    0.001    0.002    0.001 {method 'reduce' of 'numpy.ufunc' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/codeop.py:142(__call__)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/numeric.py:150(ones)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(atleast_2d)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(copyto)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:81(atleast_2d)
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/blas.py:384(getter)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        3    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/_basic.py:23(_solve_check)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:238(helper)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(atleast_1d)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/sparse/_base.py:1301(isspmatrix)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:108(__enter__)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:82(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/contextlib.py:117(__exit__)
+        4    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/compilerop.py:180(extra_flags)
+        3    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:23(atleast_1d)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/traitlets/traitlets.py:689(__get__)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 /var/folders/3x/7hfm4_jj7zl66x1wm_x_2f5h0000gn/T/ipykernel_53080/3871972712.py:5(<module>)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/ma/core.py:6462(isMaskedArray)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:3424(compare)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/traitlets/traitlets.py:651(get)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/IPython/core/interactiveshell.py:1229(user_global_ns)
+        2    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/scipy/linalg/_misc.py:181(_datacopied)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/multiarray.py:740(dot)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/multiarray.py:1079(copyto)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:19(_atleast_1d_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/sm_aswin21/tensorflow-test/env/lib/python3.8/site-packages/numpy/core/shape_base.py:77(_atleast_2d_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
